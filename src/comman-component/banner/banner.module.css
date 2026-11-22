@@ -1,0 +1,28 @@
+.bannersbg {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-bottom: 30px; */
+}
+/* Tour detail hero alignment */
+.tourDetailBanner {
+  min-height: 360px;
+}
+
+.tourDetailBanner .tourDetailContent {
+  min-height: 360px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+@media (max-width: 640px) {
+  .tourDetailBanner {
+    min-height: 340px;
+  }
+
+  .tourDetailBanner .tourDetailContent {
+    min-height: 340px;
+    padding-top: 20px;
+    padding-bottom: 52px;
+  }
+}
